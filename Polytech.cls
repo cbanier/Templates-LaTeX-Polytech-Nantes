@@ -61,9 +61,7 @@
 \newcommand{\@departement}{Informatique}
 \newcommand{\@matiere}{}
 \newcommand{\@sujet}{}
-\newcommand{\@prof}{}
-\newcommand{\@profbis}{}
-\newcommand{\@profter}{}
+\newcommand{\@professeur}{}
 \newcommand{\@annee}{}
 \newcommand{\@version}{}
 
@@ -72,9 +70,7 @@
 %\newcommand{\departement}[1]{\renewcommand{\@departement}{#1}}
 \newcommand{\matiere}[1]{\renewcommand{\@matiere}{#1}}
 \newcommand{\sujet}[1]{\renewcommand{\@sujet}{#1}}
-\newcommand{\prof}[1]{\renewcommand{\@prof}{#1}}
-\newcommand{\profbis}[1]{\renewcommand{\@profbis}{#1}}
-\newcommand{\profter}[1]{\renewcommand{\@profter}{#1}}
+\newcommand{\professeur}[1]{\renewcommand{\@professeur}{#1}}
 \newcommand{\annee}[1]{\renewcommand{\@annee}{#1}}
 \newcommand{\version}[1]{\renewcommand{\@version}{#1}}
 

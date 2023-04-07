@@ -5,7 +5,7 @@
 
 \LoadClass{Polytech}
 
-\renewcommandx{\maketitle}[3][2={},3={}]{
+\renewcommandx{\maketitle}{
   \suppressfloats[t]
   \par
   \begin{center}
@@ -35,9 +35,7 @@
 
     \par
     \vfill
-    \small{
-        #1\@ifmtarg{#2}{}{ - #2}\@ifmtarg{#3}{}{ - #3}
-    }
+    \small{\@professeur}
     \par
     \textcolor{bluePolytech}{\small\@annee}
     \vspace{0.7cm}
